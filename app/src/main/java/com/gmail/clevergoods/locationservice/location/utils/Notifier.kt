@@ -1,4 +1,4 @@
-package com.gmail.clevergoods.locationservice.location.locationUtils
+package com.gmail.clevergoods.locationservice.location.utils
 
 import android.app.Notification
 import android.app.NotificationChannel

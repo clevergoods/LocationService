@@ -7,7 +7,7 @@ import com.gmail.clevergoods.DBHelper;
 import com.gmail.clevergoods.PrefHelper;
 import com.gmail.clevergoods.Utils;
 import com.gmail.clevergoods.WLog;
-import com.gmail.clevergoods.locationservice.location.locationService.LocationService;
+import com.gmail.clevergoods.locationservice.location.service.LocationService;
 
 public class LocationServiceApi {
     private static String LOG_TAG = "LocationServiceApi";

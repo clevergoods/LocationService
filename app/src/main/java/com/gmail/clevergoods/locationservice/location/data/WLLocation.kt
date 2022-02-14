@@ -3,7 +3,7 @@ package com.gmail.clevergoods.locationservice.location.data
 import android.location.Location
 import com.google.android.gms.location.LocationRequest
 import com.msk.socmoncore.utils.IndoorDevice
-import com.gmail.clevergoods.locationservice.location.locationService.LocationService
+import com.gmail.clevergoods.locationservice.location.service.LocationService
 import org.json.JSONArray
 import org.json.JSONException
 import org.json.JSONObject

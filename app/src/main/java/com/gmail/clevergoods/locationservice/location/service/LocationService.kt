@@ -1,4 +1,4 @@
-package com.gmail.clevergoods.locationservice.location.locationService;
+package com.gmail.clevergoods.locationservice.location.service;
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -14,8 +14,8 @@ import androidx.core.app.NotificationCompat
 import com.gmail.clevergoods.*
 import com.gmail.clevergoods.LocationUpdatesBroadcastReceiver.LOG_LOCATION_SERVICE
 import com.gmail.clevergoods.Utils.Companion.wrap
-import com.gmail.clevergoods.locationservice.location.locationUtils.LocationUtils
-import com.gmail.clevergoods.locationservice.location.locationUtils.Notifier
+import com.gmail.clevergoods.locationservice.location.utils.LocationUtils
+import com.gmail.clevergoods.locationservice.location.utils.Notifier
 import org.qtproject.qt5.android.bindings.QtService
 import java.util.concurrent.atomic.AtomicInteger
 

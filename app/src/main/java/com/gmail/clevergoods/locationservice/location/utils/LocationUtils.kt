@@ -1,4 +1,4 @@
-package com.gmail.clevergoods.locationservice.location.locationUtils;
+package com.gmail.clevergoods.locationservice.location.utils;
 
 import android.app.PendingIntent
 import android.content.Context
