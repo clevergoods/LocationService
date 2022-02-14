@@ -23,10 +23,9 @@ import java.util.*
 import java.util.concurrent.TimeUnit
 
 
-class LocationUtils private constructor(ctx: Context) {
+class LocationUtils {
     companion object {
         @Volatile
-        private var context: Context? = null
         private var INSTANCE: LocationUtils? = null
         private const val priority = PRIORITY_BALANCED_POWER_ACCURACY//PRIORITY_HIGH_ACCURACY //PRIORITY_BALANCED_POWER_ACCURACY
         private var fusedLocationProviderClient: FusedLocationProviderClient? = null

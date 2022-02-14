@@ -21,7 +21,6 @@ public class LocationServiceApi {
         if (Utils.Companion.isServiceRunning(LocationService.class, ctx)) {
             Intent stopIntent = new Intent(ctx, LocationService.class);
             ctx.stopService(stopIntent);
-            //LocationUtils.Companion.stopLocationWorker(loctionWorkerRequestID, ctx);
         }
     }
 

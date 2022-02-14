@@ -1,4 +1,4 @@
-package com.msk.socmoncore.utils
+package com.gmail.clevergoods.locationservice.location.locationUtils
 
 import android.content.BroadcastReceiver
 import android.content.Context

@@ -15,7 +15,7 @@ import com.gmail.clevergoods.*
 import com.gmail.clevergoods.LocationUpdatesBroadcastReceiver.LOG_LOCATION_SERVICE
 import com.gmail.clevergoods.Utils.Companion.wrap
 import com.gmail.clevergoods.locationservice.location.locationUtils.LocationUtils
-import com.gmail.clevergoods.utils.Notifier
+import com.gmail.clevergoods.locationservice.location.locationUtils.Notifier
 import org.qtproject.qt5.android.bindings.QtService
 import java.util.concurrent.atomic.AtomicInteger
 
