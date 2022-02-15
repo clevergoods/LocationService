@@ -8,22 +8,21 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LocationService" >
+        android:theme="@style/Theme.LocationService">
 
-    <receiver
-        android:name="com.gmail.clevergoods.locationservice.location.receiver.LocationUpdatesBroadcastReceiver"
-        android:exported="true">
-        <intent-filter>
-            <action android:name="com.gmail.clevergoods.locationservice.LocationUpdatesBroadcastReceiver.ACTION_PROCESS_UPDATES" />
-            <action android:name="com.gmail.clevergoods.locationservice.LocationUpdatesBroadcastReceiver.LOG_LOCATION_SERVICE" />
-        </intent-filter>
-    </receiver>
+        <receiver
+            android:name="com.gmail.clevergoods.locationservice.location.receiver.LocationUpdatesBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.gmail.clevergoods.locationservice.LocationUpdatesBroadcastReceiver.ACTION_PROCESS_UPDATES" />
+                <action android:name="com.gmail.clevergoods.locationservice.LocationUpdatesBroadcastReceiver.LOG_LOCATION_SERVICE" />
+            </intent-filter>
+        </receiver>
 
         <service
             android:name=".location.service.LocationService"
-            android:process=":locationService"
-            android:foregroundServiceType="location" />
-
+            android:foregroundServiceType="location"
+            android:process=":locationService" />
 
 
     </application>
@@ -31,5 +30,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
 </manifest>
